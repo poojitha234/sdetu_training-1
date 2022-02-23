@@ -3,7 +3,8 @@ package junior;
 public class BankAccountApp {
 	
 	public static void main(String args[]){
-		System.out.println("bank acccount");
+		System.out.print("bank acccount");
+		System.out.println("App");
 		
 		BankAccount acc1=new BankAccount("465329874",1000.50);
 		BankAccount acc2=new BankAccount("654132987",2000);
